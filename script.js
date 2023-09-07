@@ -28,4 +28,5 @@ currentDay.textContent = currentDayOfWeek;
 const currentUTCTime = new Date().getTime();
 
 // Display the current UTC time
-currentUtcTime.textContent = currentUTCTime;
+currentUtcTime.textContent =
+ currentUTCTime + "ms";

@@ -73,6 +73,10 @@ section {
  .profle_img {
   width: 100%;
  }
+ .details {
+  height: 80%;
+  width: 100%;
+ }
 }
 @media (max-width: 767px) {
  section {
