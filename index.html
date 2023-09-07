@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta
+   name="viewport"
+   content="width=device-width, initial-scale=1.0"
+  />
+  <title>
+   Frontend Page Creation with Specific Element
+  </title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+  <div class="body_content">
+   <header>
+    <h2>PROFILE</h2>
+   </header>
+   <main>
+    <section>
+     <div class="image_section_cont">
+      <div class="profile_img_cont">
+       <img
+        data-testid="slackDisplayImage"
+        class="profle_img"
+        src="./Assets//profile_pic.jpg"
+        alt="RenewedCrown"
+       />
+      </div>
+     </div>
+     <div class="details_cont">
+      <div class="details">
+       <div class="eachdetails_cont">
+        <p class="title">Slack Name</p>
+        <h1
+         class="RenewedCrown"
+         data-testid="RenewedCrown"
+        >
+         Segun Adedotun
+        </h1>
+       </div>
+       <div class="eachdetails_cont">
+        <p class="title">today is</p>
+        <h2
+         class="currentDayOfTheWeek"
+         data-testid="currentDayOfTheWeek"
+        ></h2>
+       </div>
+       <div class="eachdetails_cont">
+        <p class="title">Today's UTC Time is</p>
+        <h2
+         class="currentUTCTime"
+         data-testid="currentUTCTime"
+        ></h2>
+       </div>
+       <div class="eachdetails_cont">
+        <p class="title">Track</p>
+        <h2 class="myTrack" data-testid="myTrack">
+         Frontend
+        </h2>
+       </div>
+       <div class="eachdetails_cont">
+        <p class="title">GitHub URL:</p>
+        <h2>
+         <a
+          class="githubURL"
+          href="https://github.com/yourusername/your-repo"
+          data-testid="“githubURL”"
+          >https://github.com/yourusername/your-repo</a
+         >
+        </h2>
+       </div>
+      </div>
+     </div>
+    </section>
+   </main>
+   <footer></footer>
+   <script src="script.js"></script>
+  </div>
+ </body>
+</html>

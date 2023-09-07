@@ -1,0 +1,111 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+.body_content {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: #e4f1ff;
+ height: 100vh;
+}
+header {
+ background-color: #aed2ff;
+ width: 100%;
+ text-align: center;
+}
+main {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+section {
+ width: 80%;
+ display: flex;
+ justify-content: space-between;
+ overflow: hidden;
+}
+.image_section_cont {
+ width: 60%;
+ height: 80%;
+}
+.profle_img {
+ height: 60%;
+ width: 70%;
+}
+.details_cont {
+ /**background-color: #27005d;*/
+ width: 40%;
+}
+.details {
+ height: 80%;
+}
+.eachdetails_cont {
+ margin: 30px 0;
+}
+.title {
+ font-family: sans-serif;
+ font-style: italic;
+ font-size: 14px;
+}
+.RenewedCrown,
+.currentDayOfTheWeek,
+.currentUTCTime,
+.myTrack,
+.githubURL {
+ margin: 0;
+ text-decoration: none;
+ cursor: pointer;
+ color: #27005d;
+}
+/**RESPONSIVENESS STYLING*/
+@media (max-width: 767px) {
+ section {
+  width: 80%;
+  flex-direction: column;
+ }
+ .image_section_cont {
+  width: 100%;
+  height: auto;
+ }
+ .profle_img {
+  width: 100%;
+ }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+ section {
+  width: 80%;
+  flex-direction: column;
+ }
+ .image_section_cont {
+  width: 100%;
+  height: auto;
+ }
+ .profle_img {
+  width: 100%;
+ }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+ /* Your small desktop-specific styles here */
+}
+@media (min-width: 1280px) {
+ /* Your medium to large desktop-specific styles here */
+}
+@media (orientation: portrait) {
+ /* Styles for portrait orientation */
+}
+
+@media (orientation: landscape) {
+ /* Styles for landscape orientation */
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi) {
+ /* Styles for high-DPI displays */
+}
+@media print {
+ /* Styles for printing */
+}
+@media (min-width: 600px) and (max-width: 799px) {
+ /* Custom styles for screens between 600px and 799px wide */
+}

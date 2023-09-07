@@ -1,0 +1,11 @@
+{
+ "name": "profilepage",
+ "version": "1.0.0",
+ "description": "hng_task_1",
+ "main": "index.html",
+ "scripts": {
+  "start": "index.html" 
+ },
+ "author": "RenewedCrown",
+ "license": "ISC"
+}
