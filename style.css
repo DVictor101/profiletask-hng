@@ -1,6 +1,7 @@
 body {
  margin: 0;
  padding: 0;
+ background-color: #e4f1ff;
 }
 .body_content {
  display: flex;
@@ -60,6 +61,19 @@ section {
  color: #27005d;
 }
 /**RESPONSIVENESS STYLING*/
+@media (min-width: 600px) and (max-width: 799px) {
+ section {
+  width: 80%;
+  flex-direction: column;
+ }
+ .image_section_cont {
+  width: 100%;
+  height: auto;
+ }
+ .profle_img {
+  width: 100%;
+ }
+}
 @media (max-width: 767px) {
  section {
   width: 80%;
@@ -86,26 +100,6 @@ section {
   width: 100%;
  }
 }
-@media (min-width: 1024px) and (max-width: 1279px) {
- /* Your small desktop-specific styles here */
-}
-@media (min-width: 1280px) {
- /* Your medium to large desktop-specific styles here */
-}
 @media (orientation: portrait) {
  /* Styles for portrait orientation */
-}
-
-@media (orientation: landscape) {
- /* Styles for landscape orientation */
-}
-@media (-webkit-min-device-pixel-ratio: 2),
- (min-resolution: 192dpi) {
- /* Styles for high-DPI displays */
-}
-@media print {
- /* Styles for printing */
-}
-@media (min-width: 600px) and (max-width: 799px) {
- /* Custom styles for screens between 600px and 799px wide */
 }
