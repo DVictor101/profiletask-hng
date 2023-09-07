@@ -77,8 +77,12 @@ section {
   height: 80%;
   width: 100%;
  }
+ .details_cont {
+  /**background-color: #27005d;*/
+  width: 100%;
+ }
 }
-@media (max-width: 767px) {
+@media (max-width: 800px) {
  section {
   width: 80%;
   flex-direction: column;
@@ -88,6 +92,14 @@ section {
   height: auto;
  }
  .profle_img {
+  width: 100%;
+ }
+ .details {
+  height: 80%;
+  width: 100%;
+ }
+ .details_cont {
+  /**background-color: #27005d;*/
   width: 100%;
  }
 }
